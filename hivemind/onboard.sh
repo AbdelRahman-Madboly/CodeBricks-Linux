@@ -1,38 +1,28 @@
-# HiveMind Inference Engine — Configuration
-# Edit this file to change model and server settings.
-# Restart the worker after any changes: sudo systemctl restart hivemind-worker
+#!/bin/sh
 
-model:
-  name: mistral-7b-instruct
-  path: /private/models/checkpoints/mistral-7b-instruct-v0.2.Q4_K_M.gguf
-  max_context_tokens: 4096
-  max_batch_tokens: 2048        # DO NOT raise above 4096 — see incident_report.md
-  temperature: 0.7
-  top_p: 0.9
+# HiveMind AI — new engineer onboarding script
+# Run this on your first day to register your access.
 
-server:
-  host: 0.0.0.0
-  port: 8080
-  workers: 4
-  timeout_seconds: 30
-  rate_limit_per_client: 10    # requests per second
+echo "============================================"
+echo "   Welcome to HiveMind AI — Onboarding"
+echo "============================================"
+echo ""
+echo "Please enter your name:"
+read NAME
 
-logging:
-  level: INFO                   # DEBUG | INFO | WARNING | ERROR
-  output: /hivemind/logs/api/server.log
-  rotate_after_mb: 100
-  keep_last_n_logs: 7
+echo "Please enter your email:"
+read EMAIL
 
-database:
-  host: localhost
-  port: 5432
-  name: hivemind_prod
-  user: hivemind
-  password: REDACTED            # set via environment variable DB_PASSWORD
+echo "Please enter your role (engineer / researcher / ops):"
+read ROLE
 
-rag:
-  chunk_size: 512
-  chunk_overlap: 64
-  embedding_model: sentence-transformers/all-MiniLM-L6-v2
-  vector_store: chromadb
-  vector_store_path: /hivemind/private/infra/vectorstore
+echo ""
+echo "============================================"
+echo "Access registered for:"
+echo "  Name:  $NAME"
+echo "  Email: $EMAIL"
+echo "  Role:  $ROLE"
+echo ""
+echo "Your details have NOT been saved because this"
+echo "is a practice script. Welcome to the team."
+echo "============================================"

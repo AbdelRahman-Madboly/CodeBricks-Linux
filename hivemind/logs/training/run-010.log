@@ -1,0 +1,69 @@
+2024-02-01 00:00:00 INFO  [run-010] Starting training run
+2024-02-01 00:00:00 INFO  [run-010] Model: mistral-7b
+2024-02-01 00:00:00 INFO  [run-010] Loading dataset...
+2024-02-01 00:01:51 INFO  [run-010] Dataset loaded: 48203 samples
+2024-02-01 00:02:01 INFO  [run-010] GPU: NVIDIA A100 80GB | VRAM: 79.2GB available
+2024-02-01 00:02:01 INFO  [run-010] -- Epoch 1/5 --
+2024-02-01 00:02:44 INFO  [run-010] step=   0/400 loss=0.8133 lr=1.00e-05
+2024-02-01 00:03:27 INFO  [run-010] step=  50/400 loss=0.7964 lr=1.00e-05
+2024-02-01 00:04:04 INFO  [run-010] step= 100/400 loss=0.7857 lr=1.00e-05
+2024-02-01 00:04:24 INFO  [run-010] step= 150/400 loss=0.7760 lr=1.00e-05
+2024-02-01 00:05:03 INFO  [run-010] step= 200/400 loss=0.7633 lr=1.00e-05
+2024-02-01 00:05:43 INFO  [run-010] step= 250/400 loss=0.7803 lr=1.00e-05
+2024-02-01 00:06:17 INFO  [run-010] step= 300/400 loss=0.7658 lr=1.00e-05
+2024-02-01 00:06:37 INFO  [run-010] step= 350/400 loss=0.7626 lr=1.00e-05
+2024-02-01 00:07:10 INFO  [run-010] step= 400/400 loss=0.7359 lr=1.00e-05
+2024-02-01 00:09:10 INFO  [run-010] Epoch 1 complete | val_loss=0.9210 accuracy=0.8167 f1=0.8027
+2024-02-01 00:09:10 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch1.pt
+2024-02-01 00:09:10 INFO  [run-010] -- Epoch 2/5 --
+2024-02-01 00:09:41 INFO  [run-010] step=   0/400 loss=0.7562 lr=9.50e-06
+2024-02-01 00:10:26 INFO  [run-010] step=  50/400 loss=0.7140 lr=9.50e-06
+2024-02-01 00:10:49 INFO  [run-010] step= 100/400 loss=0.7412 lr=9.50e-06
+2024-02-01 00:11:26 INFO  [run-010] step= 150/400 loss=0.7040 lr=9.50e-06
+2024-02-01 00:11:57 INFO  [run-010] step= 200/400 loss=0.7054 lr=9.50e-06
+2024-02-01 00:12:18 INFO  [run-010] step= 250/400 loss=0.6987 lr=9.50e-06
+2024-02-01 00:12:40 INFO  [run-010] step= 300/400 loss=0.6965 lr=9.50e-06
+2024-02-01 00:13:12 INFO  [run-010] step= 350/400 loss=0.6634 lr=9.50e-06
+2024-02-01 00:13:43 INFO  [run-010] step= 400/400 loss=0.6488 lr=9.50e-06
+2024-02-01 00:15:43 INFO  [run-010] Epoch 2 complete | val_loss=0.8524 accuracy=0.8640 f1=0.8559
+2024-02-01 00:15:43 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch2.pt
+2024-02-01 00:15:43 INFO  [run-010] -- Epoch 3/5 --
+2024-02-01 00:16:22 INFO  [run-010] step=   0/400 loss=0.6677 lr=9.03e-06
+2024-02-01 00:16:49 INFO  [run-010] step=  50/400 loss=0.6388 lr=9.03e-06
+2024-02-01 00:17:29 INFO  [run-010] step= 100/400 loss=0.6498 lr=9.03e-06
+2024-02-01 00:17:59 INFO  [run-010] step= 150/400 loss=0.6460 lr=9.03e-06
+2024-02-01 00:18:26 INFO  [run-010] step= 200/400 loss=0.6351 lr=9.03e-06
+2024-02-01 00:18:58 INFO  [run-010] step= 250/400 loss=0.6030 lr=9.03e-06
+2024-02-01 00:19:36 INFO  [run-010] step= 300/400 loss=0.6173 lr=9.03e-06
+2024-02-01 00:20:16 INFO  [run-010] step= 350/400 loss=0.5922 lr=9.03e-06
+2024-02-01 00:20:56 INFO  [run-010] step= 400/400 loss=0.5806 lr=9.03e-06
+2024-02-01 00:25:56 INFO  [run-010] Epoch 3 complete | val_loss=0.7797 accuracy=0.9012 f1=0.8889
+2024-02-01 00:25:56 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch3.pt
+2024-02-01 00:25:56 INFO  [run-010] -- Epoch 4/5 --
+2024-02-01 00:26:34 INFO  [run-010] step=   0/400 loss=0.5782 lr=8.57e-06
+2024-02-01 00:26:58 INFO  [run-010] step=  50/400 loss=0.5726 lr=8.57e-06
+2024-02-01 00:27:19 INFO  [run-010] step= 100/400 loss=0.5767 lr=8.57e-06
+2024-02-01 00:27:44 INFO  [run-010] step= 150/400 loss=0.5639 lr=8.57e-06
+2024-02-01 00:28:06 INFO  [run-010] step= 200/400 loss=0.5377 lr=8.57e-06
+2024-02-01 00:28:40 INFO  [run-010] step= 250/400 loss=0.5334 lr=8.57e-06
+2024-02-01 00:29:00 INFO  [run-010] step= 300/400 loss=0.5295 lr=8.57e-06
+2024-02-01 00:29:37 INFO  [run-010] step= 350/400 loss=0.5223 lr=8.57e-06
+2024-02-01 00:30:07 INFO  [run-010] step= 400/400 loss=0.4867 lr=8.57e-06
+2024-02-01 00:34:07 INFO  [run-010] Epoch 4 complete | val_loss=0.7259 accuracy=0.9491 f1=0.9428
+2024-02-01 00:34:07 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch4.pt
+2024-02-01 00:34:07 INFO  [run-010] -- Epoch 5/5 --
+2024-02-01 00:34:43 INFO  [run-010] step=   0/400 loss=0.5127 lr=8.15e-06
+2024-02-01 00:35:06 INFO  [run-010] step=  50/400 loss=0.5071 lr=8.15e-06
+2024-02-01 00:35:46 INFO  [run-010] step= 100/400 loss=0.4826 lr=8.15e-06
+2024-02-01 00:36:17 INFO  [run-010] step= 150/400 loss=0.4828 lr=8.15e-06
+2024-02-01 00:37:01 INFO  [run-010] step= 200/400 loss=0.4792 lr=8.15e-06
+2024-02-01 00:37:40 WARNING [run-010] Gradient norm spike: 12.41 (clipping)
+2024-02-01 00:37:40 INFO  [run-010] step= 250/400 loss=0.4452 lr=8.15e-06
+2024-02-01 00:38:11 INFO  [run-010] step= 300/400 loss=0.4574 lr=8.15e-06
+2024-02-01 00:38:40 INFO  [run-010] step= 350/400 loss=0.4218 lr=8.15e-06
+2024-02-01 00:39:18 INFO  [run-010] step= 400/400 loss=0.4401 lr=8.15e-06
+2024-02-01 00:42:18 INFO  [run-010] Epoch 5 complete | val_loss=0.6668 accuracy=0.9714 f1=0.9640
+2024-02-01 00:42:18 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch5.pt
+2024-02-01 00:42:18 INFO  [run-010] Best model saved: checkpoints/run-010_best.pt
+2024-02-01 00:42:18 INFO  [run-010] Training complete
+2024-02-01 00:42:18 INFO  [run-010] Total time: 0h 42m

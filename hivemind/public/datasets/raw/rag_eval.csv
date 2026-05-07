@@ -1,0 +1,201 @@
+id,question,source,retrieval_score,answer_rating,latency_ms,tokens_used,date
+qa-0001,How does re-ranking improve RAG results?,papers/survey-2023.pdf,0.526,2,1063,1197,2024-01-25
+qa-0002,How does chunking affect RAG performance?,docs/embeddings.md,0.8328,5,2326,547,2024-03-16
+qa-0003,Explain the difference between BM25 and dense retrieval.,papers/survey-2023.pdf,0.8289,5,1007,3426,2024-02-27
+qa-0004,How does re-ranking improve RAG results?,docs/llm-ops.md,0.4983,2,2442,1567,2024-01-23
+qa-0005,How do I evaluate a RAG pipeline?,docs/rag-guide.md,0.682,4,294,1283,2024-03-01
+qa-0006,How does re-ranking improve RAG results?,docs/llm-ops.md,0.6203,5,451,2072,2024-03-07
+qa-0007,What is hybrid search in the context of RAG?,papers/survey-2023.pdf,0.9765,3,648,1064,2024-03-06
+qa-0008,What is the difference between fine-tuning and RAG?,papers/survey-2023.pdf,0.7553,2,2181,2884,2024-01-02
+qa-0009,How does chunking affect RAG performance?,docs/rag-guide.md,0.5093,4,452,1922,2024-03-03
+qa-0010,What embedding model should I use for code search?,docs/embeddings.md,0.7681,4,1470,736,2024-03-13
+qa-0011,Explain the difference between BM25 and dense retrieval.,docs/rag-guide.md,0.7815,4,1175,2414,2024-02-27
+qa-0012,How do I handle long documents in a RAG system?,docs/llm-ops.md,0.6152,4,348,716,2024-03-28
+qa-0013,What is the difference between fine-tuning and RAG?,wiki/internal-kb.md,0.8618,2,2610,1852,2024-01-04
+qa-0014,How does chunking affect RAG performance?,docs/llm-ops.md,0.5817,2,1798,776,2024-01-18
+qa-0015,What is a vector store and how does it work?,papers/survey-2023.pdf,0.8728,3,600,3693,2024-02-06
+qa-0016,How does temperature affect LLM output quality?,docs/rag-guide.md,0.7007,1,2518,3590,2024-01-11
+qa-0017,Explain the difference between BM25 and dense retrieval.,papers/survey-2023.pdf,0.6415,4,1700,1876,2024-02-18
+qa-0018,How does chunking affect RAG performance?,docs/llm-ops.md,0.9201,3,1752,3337,2024-02-08
+qa-0019,How do I reduce hallucinations in an LLM pipeline?,docs/llm-ops.md,0.789,3,553,3760,2024-03-24
+qa-0020,What is a vector store and how does it work?,docs/llm-ops.md,0.8531,2,1691,1393,2024-02-25
+qa-0021,How does chunking affect RAG performance?,papers/survey-2023.pdf,0.6542,3,405,2240,2024-02-22
+qa-0022,What metrics should I use to evaluate retrieval quality?,docs/embeddings.md,0.8672,5,641,3850,2024-02-14
+qa-0023,How do I prevent prompt injection in an LLM API?,docs/embeddings.md,0.6474,5,772,1336,2024-02-22
+qa-0024,How does temperature affect LLM output quality?,wiki/internal-kb.md,0.9104,5,1922,976,2024-02-11
+qa-0025,How do I prevent prompt injection in an LLM API?,docs/llm-ops.md,0.6103,3,1329,3663,2024-01-22
+qa-0026,How does temperature affect LLM output quality?,docs/llm-ops.md,0.8679,3,1826,3223,2024-03-08
+qa-0027,How does re-ranking improve RAG results?,docs/embeddings.md,0.7908,1,580,2234,2024-03-07
+qa-0028,What is retrieval-augmented generation?,wiki/internal-kb.md,0.5901,2,2213,3394,2024-02-07
+qa-0029,How do I reduce hallucinations in an LLM pipeline?,papers/survey-2023.pdf,0.6815,5,2684,2718,2024-03-27
+qa-0030,How do I handle long documents in a RAG system?,wiki/internal-kb.md,0.856,2,204,610,2024-02-03
+qa-0031,What is hybrid search in the context of RAG?,docs/rag-guide.md,0.9675,4,1347,1692,2024-03-21
+qa-0032,What is the difference between fine-tuning and RAG?,wiki/internal-kb.md,0.7434,2,530,3717,2024-02-13
+qa-0033,How do I handle long documents in a RAG system?,docs/llm-ops.md,0.5636,3,646,3775,2024-01-15
+qa-0034,What metrics should I use to evaluate retrieval quality?,papers/survey-2023.pdf,0.6525,2,1593,1204,2024-01-09
+qa-0035,What is the optimal chunk size for technical documents?,wiki/internal-kb.md,0.8997,4,872,3566,2024-02-19
+qa-0036,How do I prevent prompt injection in an LLM API?,papers/survey-2023.pdf,0.7957,1,2297,1161,2024-02-17
+qa-0037,What is retrieval-augmented generation?,docs/rag-guide.md,0.6013,4,415,1555,2024-03-24
+qa-0038,What is retrieval-augmented generation?,wiki/internal-kb.md,0.8048,3,2714,229,2024-03-11
+qa-0039,How does re-ranking improve RAG results?,docs/embeddings.md,0.5063,5,314,1807,2024-01-02
+qa-0040,What is a vector store and how does it work?,wiki/internal-kb.md,0.5434,3,769,3611,2024-02-02
+qa-0041,What is the difference between fine-tuning and RAG?,papers/survey-2023.pdf,0.5432,2,599,2165,2024-01-09
+qa-0042,How do I reduce hallucinations in an LLM pipeline?,docs/embeddings.md,0.451,2,2409,891,2024-03-12
+qa-0043,How does temperature affect LLM output quality?,wiki/internal-kb.md,0.4572,1,634,3559,2024-01-05
+qa-0044,How do I evaluate a RAG pipeline?,docs/rag-guide.md,0.4292,5,2768,1733,2024-01-12
+qa-0045,What metrics should I use to evaluate retrieval quality?,docs/llm-ops.md,0.7667,5,779,1573,2024-01-11
+qa-0046,How do I handle long documents in a RAG system?,papers/survey-2023.pdf,0.519,2,575,780,2024-02-21
+qa-0047,How do I evaluate a RAG pipeline?,docs/rag-guide.md,0.544,1,1084,2501,2024-02-24
+qa-0048,How do I handle long documents in a RAG system?,wiki/internal-kb.md,0.917,1,781,3765,2024-01-25
+qa-0049,What is the optimal chunk size for technical documents?,docs/embeddings.md,0.5567,5,306,2573,2024-02-01
+qa-0050,How do I reduce hallucinations in an LLM pipeline?,docs/llm-ops.md,0.487,1,1289,3496,2024-03-10
+qa-0051,How do I reduce hallucinations in an LLM pipeline?,docs/rag-guide.md,0.6956,1,285,1628,2024-01-20
+qa-0052,How does temperature affect LLM output quality?,docs/embeddings.md,0.901,3,261,1722,2024-02-20
+qa-0053,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.4974,1,1302,3206,2024-02-14
+qa-0054,How do I evaluate a RAG pipeline?,docs/llm-ops.md,0.511,4,343,1049,2024-01-21
+qa-0055,How do I reduce hallucinations in an LLM pipeline?,docs/llm-ops.md,0.8993,1,1900,197,2024-03-01
+qa-0056,What metrics should I use to evaluate retrieval quality?,docs/llm-ops.md,0.4864,2,2697,1410,2024-01-09
+qa-0057,What embedding model should I use for code search?,wiki/internal-kb.md,0.8532,2,133,2816,2024-01-17
+qa-0058,How does re-ranking improve RAG results?,papers/survey-2023.pdf,0.4529,5,1075,1578,2024-02-05
+qa-0059,What is the optimal chunk size for technical documents?,wiki/internal-kb.md,0.4628,5,774,1132,2024-03-19
+qa-0060,What is the optimal chunk size for technical documents?,docs/llm-ops.md,0.825,1,1907,2684,2024-01-26
+qa-0061,What embedding model should I use for code search?,docs/llm-ops.md,0.6857,2,826,3624,2024-03-09
+qa-0062,What embedding model should I use for code search?,wiki/internal-kb.md,0.7999,5,2345,496,2024-01-08
+qa-0063,How do I evaluate a RAG pipeline?,docs/llm-ops.md,0.8085,4,1739,2327,2024-03-03
+qa-0064,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.5979,5,1488,2210,2024-01-04
+qa-0065,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.9571,4,374,1471,2024-01-02
+qa-0066,How does temperature affect LLM output quality?,docs/embeddings.md,0.5174,3,161,2544,2024-03-10
+qa-0067,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.4762,3,1714,762,2024-03-10
+qa-0068,How do I evaluate a RAG pipeline?,docs/embeddings.md,0.5249,1,231,1633,2024-01-05
+qa-0069,What is hybrid search in the context of RAG?,docs/rag-guide.md,0.8942,4,193,1649,2024-02-13
+qa-0070,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.499,1,208,298,2024-01-07
+qa-0071,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.77,1,2761,183,2024-02-04
+qa-0072,How does temperature affect LLM output quality?,papers/survey-2023.pdf,0.457,3,2156,1915,2024-03-13
+qa-0073,How do I handle long documents in a RAG system?,wiki/internal-kb.md,0.9345,3,1459,3096,2024-02-26
+qa-0074,How does chunking affect RAG performance?,docs/embeddings.md,0.7181,1,256,1079,2024-02-11
+qa-0075,What is hybrid search in the context of RAG?,docs/rag-guide.md,0.5672,3,2665,2739,2024-01-07
+qa-0076,What is the optimal chunk size for technical documents?,papers/survey-2023.pdf,0.7128,5,1192,497,2024-02-04
+qa-0077,What is the difference between fine-tuning and RAG?,docs/rag-guide.md,0.5737,4,1864,3432,2024-02-17
+qa-0078,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.8123,1,1293,1811,2024-01-03
+qa-0079,What is hybrid search in the context of RAG?,docs/embeddings.md,0.6732,4,1506,2618,2024-01-23
+qa-0080,What is retrieval-augmented generation?,docs/rag-guide.md,0.7366,2,1799,967,2024-02-22
+qa-0081,How does temperature affect LLM output quality?,wiki/internal-kb.md,0.7457,1,617,3454,2024-02-07
+qa-0082,Explain the difference between BM25 and dense retrieval.,docs/rag-guide.md,0.4174,4,1295,930,2024-01-27
+qa-0083,How do I handle long documents in a RAG system?,docs/embeddings.md,0.989,4,548,1448,2024-01-25
+qa-0084,How does re-ranking improve RAG results?,papers/survey-2023.pdf,0.7764,1,1221,2336,2024-02-09
+qa-0085,What metrics should I use to evaluate retrieval quality?,docs/llm-ops.md,0.8467,1,263,3246,2024-03-27
+qa-0086,How does chunking affect RAG performance?,docs/embeddings.md,0.6846,2,1310,2628,2024-02-07
+qa-0087,What metrics should I use to evaluate retrieval quality?,wiki/internal-kb.md,0.5878,4,1153,2228,2024-02-21
+qa-0088,What embedding model should I use for code search?,papers/survey-2023.pdf,0.5743,2,1468,2270,2024-01-26
+qa-0089,How do I evaluate a RAG pipeline?,docs/llm-ops.md,0.7659,5,2233,469,2024-01-18
+qa-0090,How does re-ranking improve RAG results?,docs/llm-ops.md,0.7423,3,1756,2558,2024-01-01
+qa-0091,How does re-ranking improve RAG results?,docs/rag-guide.md,0.6569,1,462,199,2024-01-28
+qa-0092,How do I prevent prompt injection in an LLM API?,docs/rag-guide.md,0.8605,3,905,649,2024-01-24
+qa-0093,How do I reduce hallucinations in an LLM pipeline?,docs/embeddings.md,0.5105,5,2746,958,2024-01-20
+qa-0094,How does chunking affect RAG performance?,docs/embeddings.md,0.4246,2,1339,1836,2024-02-17
+qa-0095,What is retrieval-augmented generation?,papers/survey-2023.pdf,0.7863,3,2084,2401,2024-03-12
+qa-0096,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.4858,3,2386,2937,2024-01-28
+qa-0097,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.7608,4,790,2652,2024-02-18
+qa-0098,What embedding model should I use for code search?,wiki/internal-kb.md,0.9001,5,1376,264,2024-01-20
+qa-0099,What is hybrid search in the context of RAG?,docs/embeddings.md,0.4986,4,307,459,2024-03-11
+qa-0100,How does temperature affect LLM output quality?,wiki/internal-kb.md,0.5799,3,828,2447,2024-02-23
+qa-0101,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.8315,3,254,2915,2024-02-14
+qa-0102,Explain the difference between BM25 and dense retrieval.,docs/llm-ops.md,0.4334,1,2064,1781,2024-02-28
+qa-0103,How do I evaluate a RAG pipeline?,wiki/internal-kb.md,0.6301,5,2747,3590,2024-02-09
+qa-0104,How does chunking affect RAG performance?,docs/llm-ops.md,0.9794,3,671,438,2024-02-22
+qa-0105,How does chunking affect RAG performance?,docs/rag-guide.md,0.6233,3,2550,1150,2024-03-04
+qa-0106,What is hybrid search in the context of RAG?,docs/embeddings.md,0.9865,3,1790,3846,2024-01-05
+qa-0107,How does temperature affect LLM output quality?,docs/llm-ops.md,0.5766,1,2365,2260,2024-03-09
+qa-0108,What embedding model should I use for code search?,docs/llm-ops.md,0.6486,5,645,1265,2024-02-14
+qa-0109,What is the difference between fine-tuning and RAG?,papers/survey-2023.pdf,0.4636,3,240,3851,2024-02-08
+qa-0110,What is the optimal chunk size for technical documents?,docs/rag-guide.md,0.6999,3,1109,3372,2024-03-02
+qa-0111,What embedding model should I use for code search?,papers/survey-2023.pdf,0.8805,1,1574,2479,2024-01-21
+qa-0112,How do I prevent prompt injection in an LLM API?,docs/embeddings.md,0.86,5,284,444,2024-01-27
+qa-0113,Explain the difference between BM25 and dense retrieval.,docs/rag-guide.md,0.6716,5,1996,2214,2024-03-23
+qa-0114,What is retrieval-augmented generation?,docs/llm-ops.md,0.8324,5,1021,817,2024-03-14
+qa-0115,What embedding model should I use for code search?,docs/llm-ops.md,0.9728,5,1994,1361,2024-03-01
+qa-0116,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.5849,1,1140,2512,2024-02-28
+qa-0117,What is a vector store and how does it work?,papers/survey-2023.pdf,0.8533,3,2470,1607,2024-03-05
+qa-0118,What is the difference between fine-tuning and RAG?,docs/rag-guide.md,0.8667,5,1647,2376,2024-01-22
+qa-0119,How does re-ranking improve RAG results?,docs/embeddings.md,0.513,3,2080,3624,2024-01-13
+qa-0120,What is the difference between fine-tuning and RAG?,papers/survey-2023.pdf,0.8278,3,2602,1422,2024-02-01
+qa-0121,How do I evaluate a RAG pipeline?,docs/llm-ops.md,0.8568,1,1144,1129,2024-01-22
+qa-0122,How do I prevent prompt injection in an LLM API?,docs/rag-guide.md,0.5025,2,1347,1227,2024-02-13
+qa-0123,What is a vector store and how does it work?,papers/survey-2023.pdf,0.5036,3,1654,3385,2024-01-01
+qa-0124,What embedding model should I use for code search?,wiki/internal-kb.md,0.6789,3,2091,2759,2024-02-24
+qa-0125,How does temperature affect LLM output quality?,docs/llm-ops.md,0.6001,2,2647,377,2024-03-13
+qa-0126,How do I evaluate a RAG pipeline?,wiki/internal-kb.md,0.4989,4,988,2228,2024-01-26
+qa-0127,What is the difference between fine-tuning and RAG?,papers/survey-2023.pdf,0.9815,4,2298,1475,2024-02-07
+qa-0128,What is the difference between fine-tuning and RAG?,docs/rag-guide.md,0.4619,2,1703,821,2024-01-23
+qa-0129,How does re-ranking improve RAG results?,docs/llm-ops.md,0.6079,2,363,3148,2024-01-03
+qa-0130,How does temperature affect LLM output quality?,papers/survey-2023.pdf,0.6303,3,1912,1569,2024-03-01
+qa-0131,What embedding model should I use for code search?,wiki/internal-kb.md,0.9856,4,2563,3752,2024-03-14
+qa-0132,What is a vector store and how does it work?,docs/embeddings.md,0.8373,2,2671,767,2024-02-19
+qa-0133,What is a vector store and how does it work?,docs/llm-ops.md,0.9639,4,2020,930,2024-02-22
+qa-0134,How do I evaluate a RAG pipeline?,papers/survey-2023.pdf,0.7562,3,2314,2009,2024-03-15
+qa-0135,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.6907,4,909,676,2024-02-16
+qa-0136,What is retrieval-augmented generation?,papers/survey-2023.pdf,0.6629,3,365,3166,2024-01-05
+qa-0137,How do I prevent prompt injection in an LLM API?,docs/rag-guide.md,0.9511,5,1879,2395,2024-01-04
+qa-0138,What embedding model should I use for code search?,wiki/internal-kb.md,0.8419,2,1023,3339,2024-02-01
+qa-0139,What is a vector store and how does it work?,docs/rag-guide.md,0.9657,2,279,968,2024-01-20
+qa-0140,Explain the difference between BM25 and dense retrieval.,docs/llm-ops.md,0.7099,1,873,2069,2024-02-16
+qa-0141,What is a vector store and how does it work?,docs/embeddings.md,0.6111,3,1118,1377,2024-01-21
+qa-0142,What is the optimal chunk size for technical documents?,docs/rag-guide.md,0.5071,1,994,3450,2024-02-26
+qa-0143,How do I reduce hallucinations in an LLM pipeline?,docs/embeddings.md,0.6073,4,1489,2858,2024-02-26
+qa-0144,How does temperature affect LLM output quality?,papers/survey-2023.pdf,0.786,1,2043,297,2024-02-18
+qa-0145,What is hybrid search in the context of RAG?,docs/rag-guide.md,0.6025,1,1859,3095,2024-02-23
+qa-0146,How do I prevent prompt injection in an LLM API?,docs/rag-guide.md,0.5115,3,1616,2594,2024-02-22
+qa-0147,How do I reduce hallucinations in an LLM pipeline?,docs/embeddings.md,0.9423,3,1717,865,2024-03-27
+qa-0148,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.8944,5,442,539,2024-03-16
+qa-0149,How does chunking affect RAG performance?,docs/rag-guide.md,0.8049,1,1529,1772,2024-02-08
+qa-0150,What metrics should I use to evaluate retrieval quality?,docs/llm-ops.md,0.4412,2,2386,1208,2024-03-13
+qa-0151,What embedding model should I use for code search?,docs/rag-guide.md,0.9146,3,900,1724,2024-02-16
+qa-0152,What is the difference between fine-tuning and RAG?,docs/llm-ops.md,0.5083,5,213,2868,2024-01-05
+qa-0153,What is retrieval-augmented generation?,docs/embeddings.md,0.9825,4,713,424,2024-01-10
+qa-0154,How does temperature affect LLM output quality?,docs/embeddings.md,0.7454,2,1410,1159,2024-01-08
+qa-0155,How do I reduce hallucinations in an LLM pipeline?,papers/survey-2023.pdf,0.9511,5,463,3486,2024-03-06
+qa-0156,What is retrieval-augmented generation?,wiki/internal-kb.md,0.8078,3,2125,1754,2024-02-05
+qa-0157,What is hybrid search in the context of RAG?,docs/llm-ops.md,0.5345,4,2207,2038,2024-02-14
+qa-0158,What metrics should I use to evaluate retrieval quality?,docs/llm-ops.md,0.6689,2,1272,2304,2024-01-23
+qa-0159,Explain the difference between BM25 and dense retrieval.,docs/embeddings.md,0.9735,2,531,2447,2024-03-23
+qa-0160,What is retrieval-augmented generation?,docs/llm-ops.md,0.4282,2,1234,3709,2024-02-01
+qa-0161,How does chunking affect RAG performance?,docs/rag-guide.md,0.5085,2,478,685,2024-01-03
+qa-0162,How does chunking affect RAG performance?,docs/rag-guide.md,0.8295,3,1641,3371,2024-02-06
+qa-0163,What is the optimal chunk size for technical documents?,papers/survey-2023.pdf,0.7577,4,856,2101,2024-01-17
+qa-0164,What is the optimal chunk size for technical documents?,docs/embeddings.md,0.9455,3,833,3002,2024-02-22
+qa-0165,What metrics should I use to evaluate retrieval quality?,docs/embeddings.md,0.7573,2,941,362,2024-03-18
+qa-0166,What is a vector store and how does it work?,docs/llm-ops.md,0.7651,1,1225,3702,2024-03-14
+qa-0167,What is the difference between fine-tuning and RAG?,docs/llm-ops.md,0.4818,2,2088,3470,2024-01-26
+qa-0168,How do I handle long documents in a RAG system?,docs/llm-ops.md,0.527,2,2685,1925,2024-01-19
+qa-0169,How do I prevent prompt injection in an LLM API?,docs/embeddings.md,0.4566,2,975,3592,2024-03-25
+qa-0170,How do I prevent prompt injection in an LLM API?,wiki/internal-kb.md,0.4205,5,1925,2958,2024-03-15
+qa-0171,What is hybrid search in the context of RAG?,docs/embeddings.md,0.8416,3,2245,1987,2024-01-18
+qa-0172,How do I handle long documents in a RAG system?,papers/survey-2023.pdf,0.7216,4,1123,3427,2024-03-20
+qa-0173,What metrics should I use to evaluate retrieval quality?,docs/rag-guide.md,0.9197,1,2751,465,2024-01-20
+qa-0174,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.4827,5,1837,3294,2024-03-10
+qa-0175,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.5736,2,1599,3777,2024-03-02
+qa-0176,How does chunking affect RAG performance?,wiki/internal-kb.md,0.5247,5,1152,1659,2024-01-05
+qa-0177,How does temperature affect LLM output quality?,papers/survey-2023.pdf,0.6124,4,809,1586,2024-02-22
+qa-0178,Explain the difference between BM25 and dense retrieval.,docs/llm-ops.md,0.7975,3,1029,2683,2024-03-19
+qa-0179,How does chunking affect RAG performance?,papers/survey-2023.pdf,0.815,2,2068,1319,2024-03-09
+qa-0180,What is the optimal chunk size for technical documents?,docs/llm-ops.md,0.5347,5,1366,3257,2024-01-17
+qa-0181,What is the optimal chunk size for technical documents?,docs/embeddings.md,0.4202,3,178,3336,2024-02-25
+qa-0182,What embedding model should I use for code search?,wiki/internal-kb.md,0.7213,5,489,749,2024-02-25
+qa-0183,How do I evaluate a RAG pipeline?,wiki/internal-kb.md,0.7613,5,1643,977,2024-01-27
+qa-0184,What is retrieval-augmented generation?,wiki/internal-kb.md,0.4697,1,2602,3783,2024-02-10
+qa-0185,How does temperature affect LLM output quality?,wiki/internal-kb.md,0.9569,4,2512,3773,2024-03-24
+qa-0186,What is the optimal chunk size for technical documents?,docs/rag-guide.md,0.7652,4,2488,3706,2024-03-20
+qa-0187,What is a vector store and how does it work?,docs/llm-ops.md,0.61,1,221,2814,2024-01-26
+qa-0188,What embedding model should I use for code search?,docs/llm-ops.md,0.8196,5,974,3445,2024-01-19
+qa-0189,What is the optimal chunk size for technical documents?,docs/rag-guide.md,0.5892,4,2013,3615,2024-02-28
+qa-0190,What is the difference between fine-tuning and RAG?,docs/rag-guide.md,0.5123,5,475,522,2024-02-06
+qa-0191,How do I evaluate a RAG pipeline?,papers/survey-2023.pdf,0.8098,2,977,2510,2024-02-10
+qa-0192,How do I handle long documents in a RAG system?,docs/rag-guide.md,0.4584,1,1477,3394,2024-02-05
+qa-0193,Explain the difference between BM25 and dense retrieval.,wiki/internal-kb.md,0.9486,1,1755,1191,2024-03-10
+qa-0194,What is the optimal chunk size for technical documents?,docs/llm-ops.md,0.9108,3,2522,1948,2024-03-20
+qa-0195,What is a vector store and how does it work?,docs/llm-ops.md,0.6702,2,700,1851,2024-02-16
+qa-0196,How do I reduce hallucinations in an LLM pipeline?,docs/embeddings.md,0.8127,3,428,2722,2024-03-02
+qa-0197,Explain the difference between BM25 and dense retrieval.,papers/survey-2023.pdf,0.7115,5,207,1991,2024-03-14
+qa-0198,How do I evaluate a RAG pipeline?,docs/rag-guide.md,0.8012,1,1929,2597,2024-03-14
+qa-0199,What is the optimal chunk size for technical documents?,docs/rag-guide.md,0.5188,1,1136,2362,2024-03-13
+qa-0200,What embedding model should I use for code search?,docs/llm-ops.md,0.7862,3,1688,2843,2024-03-22
