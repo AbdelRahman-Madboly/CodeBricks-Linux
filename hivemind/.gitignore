@@ -1,0 +1,14 @@
+# Never commit real secrets
+private/api_keys/
+private/customers/records.csv
+*.pem
+*.key
+.env
+
+# Model weights (too large)
+private/models/checkpoints/*.bin
+private/models/checkpoints/*.pt
+
+# Python
+__pycache__/
+*.pyc

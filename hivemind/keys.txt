@@ -1,0 +1,12 @@
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAqL7tDZyd7Pm5QbH9J0Wp5LHvRU4R8GkL6tBPk2G7G4U5X3hK
+OQITb6Y5VqoGgIgYRQwDkagMsKSkPLhIc4Yx4OJRAyF4nMn8ld8eeFVn+qLp1/2l
+HiveMindInferenceEngineSigningKey2024ProductionDoNotShareOrCommit
+nbEdC4f+OOwMmzDhIz4k/HBHBaLJFpVgJiK9U+JjVRR9AcQXkKyLbI0jS/RzCotL
+3LT0vuRSL+eC2P7ojEVkSYZghs1+cLhM3ARL5QaGkL+YOa1pHhL5JlCl9zhY40DB
+Jx0V8n/AGKcCPsLq0U6K7gNfph4Gtq6IWzJF2wIDAQABAoIBAFwhGMDQz0HrHRWC
+-----END RSA PRIVATE KEY-----
+
+# This key signs all API responses from the HiveMind inference engine.
+# Permissions on this file MUST be 600.
+# chmod 600 /hivemind/private/key.txt

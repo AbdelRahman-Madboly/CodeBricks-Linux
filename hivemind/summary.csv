@@ -1,0 +1,16 @@
+run_id,model,dataset,epochs,lr,batch_size,train_loss,val_loss,accuracy,f1,duration_hours,status,engineer
+run-001,mistral-7b,hivemind-qa-v1,3,2e-5,8,0.312,0.387,0.821,0.809,14.2,complete,priya
+run-002,mistral-7b,hivemind-qa-v1,5,2e-5,8,0.241,0.391,0.818,0.804,23.1,complete,priya
+run-003,mistral-7b,hivemind-qa-v2,3,1e-5,16,0.298,0.341,0.847,0.839,15.8,complete,priya
+run-004,mistral-7b,hivemind-qa-v2,5,1e-5,16,0.201,0.298,0.871,0.864,26.3,complete,priya
+run-005,llama-2-13b,hivemind-qa-v2,3,5e-6,8,0.334,0.312,0.889,0.882,31.4,complete,priya
+run-006,llama-2-13b,hivemind-qa-v2,5,5e-6,8,0.245,0.289,0.901,0.897,52.1,complete,priya
+run-007,codellama-7b,code-qa-v1,3,2e-5,16,0.412,0.441,0.763,0.748,12.9,complete,marcus
+run-008,codellama-7b,code-qa-v1,5,1e-5,16,0.301,0.389,0.801,0.794,21.3,complete,marcus
+run-009,mistral-7b,hivemind-qa-v3,3,1e-5,32,0.188,0.271,0.912,0.908,18.2,complete,priya
+run-010,mistral-7b,hivemind-qa-v3,5,1e-5,32,0.141,0.249,0.924,0.921,30.1,complete,priya
+run-011,llama-2-13b,hivemind-qa-v3,3,5e-6,16,0.221,0.241,0.931,0.928,34.7,complete,priya
+run-012,llama-2-13b,hivemind-qa-v3,5,5e-6,16,0.178,0.219,0.944,0.941,57.8,best,priya
+run-013,mistral-7b,code-qa-v2,3,2e-5,32,0.289,0.301,0.841,0.836,16.1,complete,marcus
+run-014,codellama-7b,code-qa-v2,5,1e-5,32,0.198,0.241,0.878,0.872,22.8,complete,marcus
+run-015,llama-2-13b,code-qa-v2,5,5e-6,16,0.201,0.228,0.891,0.887,58.2,oom_killed,priya

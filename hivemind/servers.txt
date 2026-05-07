@@ -1,0 +1,21 @@
+# HiveMind AI — GPU Server Inventory
+# Updated: 2024-03-01
+# Contact Tomás for access: tomas@hivemind-ai.com
+
+# Production
+nietzsche.hivemind-ai.com  | A100 80GB x4  | inference  | ubuntu 22.04 | ONLINE
+kant.hivemind-ai.com       | A100 80GB x4  | inference  | ubuntu 22.04 | ONLINE
+hegel.hivemind-ai.com      | A100 80GB x2  | inference  | ubuntu 22.04 | REBOOTING (again)
+
+# Training
+spinoza.hivemind-ai.com    | H100 80GB x8  | training   | ubuntu 22.04 | ONLINE
+descartes.hivemind-ai.com  | H100 80GB x8  | training   | ubuntu 22.04 | ONLINE
+
+# Staging
+locke.hivemind-ai.com      | RTX 4090 x2   | staging    | ubuntu 22.04 | ONLINE
+
+# Development
+hume.hivemind-ai.com       | RTX 4090 x1   | dev        | ubuntu 22.04 | ONLINE
+
+# Decommissioned
+plato.hivemind-ai.com      | V100 32GB x4  | retired    | ubuntu 20.04 | OFFLINE

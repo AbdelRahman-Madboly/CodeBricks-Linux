@@ -1,0 +1,9 @@
+model_id,name,version,type,size_gb,status,deployed_at,deployed_by
+hm-001,mistral-7b-instruct,v0.2,inference,4.1,production,2024-01-15,priya
+hm-002,mistral-7b-instruct,v0.1,inference,4.1,retired,2023-11-01,priya
+hm-003,llama-2-13b-chat,v1.0,inference,7.3,staging,2024-02-20,priya
+hm-004,all-MiniLM-L6-v2,v1.0,embedding,0.09,production,2023-10-01,sungmin
+hm-005,bge-large-en-v1.5,v1.5,embedding,1.2,staging,2024-03-01,sungmin
+hm-006,hivemind-rag-v1,v1.0,rag_pipeline,0.0,production,2024-01-20,priya
+hm-007,hivemind-classifier-v2,v2.1,classifier,0.4,production,2024-02-10,priya
+hm-008,codellama-7b-instruct,v1.0,inference,3.8,testing,2024-03-10,marcus

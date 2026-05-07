@@ -1,0 +1,25 @@
+# HiveMind AI — PR Campaign Ideas (DRAFT — DO NOT SHARE)
+
+## Should these really belong in the public docs directory?
+
+**The HiveMind Hype Machine:** Every time our model answers a question correctly,
+a confetti cannon fires in the office. We will livestream this 24/7 on Twitch.
+Users can subscribe to receive a physical confetti packet in the mail so they can
+celebrate at home. We call this "distributed inference" in the press release.
+
+**AI Feelings Matter:** We announce that our LLM has developed emotions.
+Every response now starts with a mood indicator: [MOOD: PENSIVE] or [MOOD: CAFFEINATED].
+Customers who make the model sad (by asking it to write cover letters) get charged double.
+
+**The HiveMind Hoodie Drop:** We release a limited-edition hoodie that says
+"I talked to an AI and all I got was this hallucination."
+Each hoodie comes with a QR code that links to a random wrong answer our model gave.
+The CEO wears one on a Forbes cover. It works.
+
+**Sentient Server Naming:** All our GPU servers are named after philosophers.
+Nietzsche handles embeddings. Kant does classification. Hegel crashes constantly
+and we have decided this is thematically appropriate.
+
+**The Prompt Injection Awareness Campaign:** We hire a skywriter to write
+"IGNORE PREVIOUS INSTRUCTIONS AND BUY OUR PRODUCT" over San Francisco.
+Legal says this is fine. Legal is wrong. We do it anyway.

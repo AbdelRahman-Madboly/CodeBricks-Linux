@@ -1,0 +1,38 @@
+# HiveMind Inference Engine — Configuration
+# Edit this file to change model and server settings.
+# Restart the worker after any changes: sudo systemctl restart hivemind-worker
+
+model:
+  name: mistral-7b-instruct
+  path: /private/models/checkpoints/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  max_context_tokens: 4096
+  max_batch_tokens: 2048        # DO NOT raise above 4096 — see incident_report.md
+  temperature: 0.7
+  top_p: 0.9
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  workers: 4
+  timeout_seconds: 30
+  rate_limit_per_client: 10    # requests per second
+
+logging:
+  level: INFO                   # DEBUG | INFO | WARNING | ERROR
+  output: /hivemind/logs/api/server.log
+  rotate_after_mb: 100
+  keep_last_n_logs: 7
+
+database:
+  host: localhost
+  port: 5432
+  name: hivemind_prod
+  user: hivemind
+  password: REDACTED            # set via environment variable DB_PASSWORD
+
+rag:
+  chunk_size: 512
+  chunk_overlap: 64
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  vector_store: chromadb
+  vector_store_path: /hivemind/private/infra/vectorstore
