@@ -1,30 +1,30 @@
 2024-03-02 00:02:33 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 00:06:39 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 00:06:39 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 00:10:28 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 00:14:09 INFO    cron: backup job complete -- 42GB archived
-2024-03-02 00:17:37 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
-2024-03-02 00:21:07 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 00:14:09 INFO    cron: backup job complete — 42GB archived
+2024-03-02 00:17:37 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
+2024-03-02 00:21:07 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 00:25:52 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 00:26:23 INFO    cron: log rotation complete
 2024-03-02 00:31:16 INFO    nginx: config reloaded
 2024-03-02 00:35:39 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 00:40:02 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 00:42:31 INFO    kernel: GPU memory normalized -- 41% on nietzsche
-2024-03-02 00:44:43 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 00:42:31 INFO    kernel: GPU memory normalized — 41% on nietzsche
+2024-03-02 00:44:43 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 00:49:10 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 00:50:30 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 00:52:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 00:52:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 00:56:22 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 00:56:46 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 00:56:46 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 01:00:59 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 01:05:07 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 01:10:02 INFO    nginx: config reloaded
 2024-03-02 01:12:36 INFO    systemd: hivemind-worker.service started
-2024-03-02 01:15:01 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 01:15:01 INFO    cron: backup job complete — 42GB archived
 2024-03-02 01:15:22 INFO    nginx: config reloaded
-2024-03-02 01:19:07 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 01:19:07 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 01:22:18 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 01:25:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 01:25:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 01:28:14 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 01:30:56 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 01:31:44 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
@@ -35,9 +35,9 @@
 2024-03-02 01:39:30 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 01:42:50 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 01:46:02 INFO    cron: log rotation complete
-2024-03-02 01:47:28 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 01:47:28 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 01:50:06 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 01:53:11 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 01:53:11 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 01:57:49 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 02:01:35 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 02:03:50 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
@@ -45,65 +45,65 @@
 2024-03-02 02:06:48 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 02:10:38 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 02:10:54 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 02:13:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 02:13:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 02:13:41 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 02:14:26 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 02:16:41 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 02:16:41 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 02:19:56 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 02:20:45 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 02:25:11 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 02:28:01 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 02:28:55 INFO    cron: backup job started
 2024-03-02 02:31:47 INFO    cron: log rotation complete
-2024-03-02 02:33:47 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 02:33:47 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 02:36:18 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 02:40:06 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 02:42:55 INFO    kernel: GPU memory normalized -- 41% on nietzsche
-2024-03-02 02:47:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 02:42:55 INFO    kernel: GPU memory normalized — 41% on nietzsche
+2024-03-02 02:47:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 02:50:52 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 02:55:23 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 02:59:54 INFO    nginx: config reloaded
 2024-03-02 03:00:04 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 03:04:10 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 03:07:44 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 03:12:34 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 03:12:34 INFO    cron: backup job complete — 42GB archived
 2024-03-02 03:12:52 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 03:14:10 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 03:17:46 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 03:21:07 INFO    systemd: hivemind-worker.service started
 2024-03-02 03:25:46 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 03:28:17 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 03:30:26 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 03:30:26 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 03:30:37 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 03:32:22 INFO    nginx: config reloaded
-2024-03-02 03:36:08 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 03:36:08 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 03:36:26 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 03:38:58 INFO    nginx: config reloaded
 2024-03-02 03:41:11 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 03:42:50 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 03:42:50 INFO    cron: backup job complete — 42GB archived
 2024-03-02 03:43:34 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 03:44:12 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 03:44:56 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 03:45:51 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 03:49:13 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 03:52:00 INFO    nginx: config reloaded
-2024-03-02 03:54:47 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 03:54:47 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 03:57:01 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 04:01:53 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 04:04:12 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 04:04:12 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 04:08:38 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 04:10:13 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 04:14:16 INFO    kernel: GPU memory normalized -- 41% on nietzsche
-2024-03-02 04:17:00 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 04:14:16 INFO    kernel: GPU memory normalized — 41% on nietzsche
+2024-03-02 04:17:00 INFO    cron: backup job complete — 42GB archived
 2024-03-02 04:17:11 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 04:20:08 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 04:22:42 INFO    cron: backup job started
 2024-03-02 04:23:00 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 04:25:05 INFO    cron: log rotation complete
-2024-03-02 04:29:21 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 04:29:21 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 04:32:33 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 04:37:18 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 04:40:59 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 04:40:59 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 04:45:23 INFO    nginx: config reloaded
 2024-03-02 04:48:07 INFO    cron: backup job started
 2024-03-02 04:50:01 INFO    kernel: NVIDIA A100 driver loaded
@@ -120,15 +120,15 @@
 2024-03-02 05:20:04 INFO    cron: backup job started
 2024-03-02 05:24:24 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 05:27:29 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 05:32:06 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 05:32:06 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 05:32:54 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 05:37:47 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 05:40:46 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 05:45:21 INFO    cron: backup job started
-2024-03-02 05:48:43 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 05:48:43 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 05:51:49 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 05:53:49 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 05:54:48 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 05:54:48 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 05:57:37 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 06:02:27 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 06:03:05 WARNING kernel: GPU memory at 92% on nietzsche
@@ -138,12 +138,12 @@
 2024-03-02 06:13:10 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 06:15:59 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 06:17:01 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 06:21:08 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 06:21:08 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 06:21:44 INFO    cron: backup job started
 2024-03-02 06:23:22 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 06:27:55 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 06:29:24 INFO    nginx: config reloaded
-2024-03-02 06:31:12 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 06:31:12 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 06:32:08 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 06:34:49 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 06:35:44 WARNING kernel: GPU memory at 92% on nietzsche
@@ -151,24 +151,24 @@
 2024-03-02 06:41:01 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 06:44:16 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 06:44:53 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 06:47:47 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 06:47:47 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 06:48:16 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 06:48:56 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 06:48:56 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 06:51:37 INFO    systemd: hivemind-worker.service started
-2024-03-02 06:55:37 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 06:55:37 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 07:00:19 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 07:01:20 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 07:04:58 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 07:09:49 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 07:09:49 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 07:12:39 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 07:16:42 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 07:20:33 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 07:20:33 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 07:23:19 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 07:26:04 INFO    cron: backup job started
 2024-03-02 07:30:59 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 07:31:59 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 07:31:59 INFO    cron: backup job complete — 42GB archived
 2024-03-02 07:35:37 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 07:38:41 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 07:38:41 INFO    cron: backup job complete — 42GB archived
 2024-03-02 07:39:19 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 07:42:06 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 07:43:08 INFO    systemd: hivemind-worker.service started
@@ -177,46 +177,46 @@
 2024-03-02 07:51:14 INFO    systemd: hivemind-worker.service started
 2024-03-02 07:51:54 INFO    cron: log rotation complete
 2024-03-02 07:53:11 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 07:55:29 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 07:55:29 INFO    cron: backup job complete — 42GB archived
 2024-03-02 07:56:42 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 08:01:26 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:01:26 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:05:09 INFO    cron: log rotation complete
-2024-03-02 08:06:23 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:06:23 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:07:15 INFO    nginx: config reloaded
 2024-03-02 08:10:27 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 08:12:04 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 08:15:29 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:15:29 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:15:54 INFO    cron: log rotation complete
 2024-03-02 08:17:43 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 08:22:07 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 08:22:18 INFO    systemd: hivemind-worker.service started
-2024-03-02 08:25:24 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 08:25:24 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 08:26:45 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 08:31:07 INFO    cron: backup job complete -- 42GB archived
-2024-03-02 08:32:24 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 08:31:07 INFO    cron: backup job complete — 42GB archived
+2024-03-02 08:32:24 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 08:32:59 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 08:34:29 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:34:29 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:34:54 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 08:39:01 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 08:43:57 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 08:48:19 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:48:19 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:50:39 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 08:55:33 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
-2024-03-02 08:56:45 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 08:55:33 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
+2024-03-02 08:56:45 INFO    cron: backup job complete — 42GB archived
 2024-03-02 08:59:54 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 09:02:35 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 09:04:20 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 09:07:19 INFO    cron: log rotation complete
-2024-03-02 09:07:40 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 09:07:40 INFO    cron: backup job complete — 42GB archived
 2024-03-02 09:12:14 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 09:12:32 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 09:13:04 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 09:13:04 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 09:17:56 INFO    systemd: hivemind-worker.service started
 2024-03-02 09:19:34 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 09:21:58 INFO    systemd: hivemind-worker.service started
 2024-03-02 09:25:42 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 09:28:25 INFO    nginx: config reloaded
-2024-03-02 09:30:49 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 09:30:49 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 09:34:23 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 09:34:54 INFO    systemd: hivemind-worker.service started
 2024-03-02 09:37:15 INFO    kernel: NVIDIA A100 driver loaded
@@ -226,16 +226,16 @@
 2024-03-02 09:50:05 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 09:51:03 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 09:54:01 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 09:57:51 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 09:57:51 INFO    cron: backup job complete — 42GB archived
 2024-03-02 09:59:53 INFO    cron: log rotation complete
 2024-03-02 10:04:49 INFO    nginx: config reloaded
 2024-03-02 10:09:30 INFO    cron: log rotation complete
-2024-03-02 10:14:01 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 10:14:01 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 10:17:26 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 10:21:13 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 10:21:13 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 10:22:00 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 10:25:29 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 10:29:12 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 10:29:12 INFO    cron: backup job complete — 42GB archived
 2024-03-02 10:30:32 INFO    systemd: hivemind-worker.service started
 2024-03-02 10:31:27 INFO    cron: backup job started
 2024-03-02 10:33:16 WARNING sshd: Failed password attempt for root from 185.220.101.47
@@ -248,40 +248,40 @@
 2024-03-02 10:49:39 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 10:54:15 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 10:56:30 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 10:59:08 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 10:59:08 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 10:59:55 INFO    cron: backup job started
-2024-03-02 11:02:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 11:02:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 11:07:15 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 11:10:30 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
-2024-03-02 11:13:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
-2024-03-02 11:14:32 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 11:10:30 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
+2024-03-02 11:13:17 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
+2024-03-02 11:14:32 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 11:17:45 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 11:21:24 INFO    nginx: config reloaded
 2024-03-02 11:23:24 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 11:28:22 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 11:30:25 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 11:30:25 INFO    cron: backup job complete — 42GB archived
 2024-03-02 11:33:56 INFO    nginx: config reloaded
 2024-03-02 11:34:10 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 11:38:41 INFO    cron: log rotation complete
 2024-03-02 11:42:17 INFO    cron: log rotation complete
 2024-03-02 11:45:58 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 11:49:22 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 11:49:22 INFO    cron: backup job complete — 42GB archived
 2024-03-02 11:50:57 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 11:55:40 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 11:57:11 INFO    cron: log rotation complete
 2024-03-02 11:58:45 INFO    systemd: hivemind-worker.service started
 2024-03-02 11:59:51 INFO    cron: log rotation complete
-2024-03-02 12:01:52 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 12:01:52 INFO    cron: backup job complete — 42GB archived
 2024-03-02 12:04:07 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 12:06:04 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 12:09:57 INFO    cron: log rotation complete
 2024-03-02 12:14:30 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 12:18:18 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 12:18:18 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 12:22:04 INFO    nginx: config reloaded
 2024-03-02 12:25:43 INFO    nginx: config reloaded
 2024-03-02 12:30:10 INFO    systemd: hivemind-worker.service started
 2024-03-02 12:33:44 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 12:36:39 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 12:36:39 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 12:40:54 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 12:43:27 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 12:47:40 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
@@ -292,9 +292,9 @@
 2024-03-02 13:00:25 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 13:01:56 INFO    cron: log rotation complete
 2024-03-02 13:06:16 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 13:11:01 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 13:11:01 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 13:13:32 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 13:14:14 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 13:14:14 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 13:18:53 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 13:20:23 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 13:24:20 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
@@ -306,7 +306,7 @@
 2024-03-02 13:40:48 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 13:44:01 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 13:46:50 INFO    cron: backup job started
-2024-03-02 13:50:26 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 13:50:26 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 13:55:07 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 13:57:18 INFO    systemd: hivemind-worker.service started
 2024-03-02 13:57:53 WARNING kernel: GPU memory at 92% on nietzsche
@@ -315,9 +315,9 @@
 2024-03-02 14:03:52 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 14:05:40 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 14:06:33 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 14:10:46 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 14:10:46 INFO    cron: backup job complete — 42GB archived
 2024-03-02 14:12:24 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 14:13:48 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 14:13:48 INFO    cron: backup job complete — 42GB archived
 2024-03-02 14:18:26 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 14:23:13 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 14:25:59 WARNING kernel: GPU memory at 87% on nietzsche
@@ -331,7 +331,7 @@
 2024-03-02 14:50:42 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 14:53:25 INFO    systemd: hivemind-worker.service started
 2024-03-02 14:54:11 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 14:56:13 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 14:56:13 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 14:58:26 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 15:03:05 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 15:06:39 INFO    nginx: config reloaded
@@ -339,26 +339,26 @@
 2024-03-02 15:10:39 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 15:13:08 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 15:13:26 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 15:15:41 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 15:15:41 INFO    cron: backup job complete — 42GB archived
 2024-03-02 15:19:12 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 15:23:05 INFO    nginx: config reloaded
 2024-03-02 15:25:31 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 15:26:51 INFO    nginx: config reloaded
 2024-03-02 15:28:10 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 15:31:10 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 15:34:42 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 15:34:42 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 15:35:24 INFO    cron: backup job started
 2024-03-02 15:36:52 INFO    cron: log rotation complete
 2024-03-02 15:40:00 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 15:43:57 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 15:43:57 INFO    cron: backup job complete — 42GB archived
 2024-03-02 15:48:23 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 15:48:54 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 15:49:47 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 15:52:41 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 15:57:36 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 15:57:36 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 15:57:56 INFO    nginx: config reloaded
 2024-03-02 16:01:58 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 16:04:51 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 16:04:51 INFO    cron: backup job complete — 42GB archived
 2024-03-02 16:05:46 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 16:09:13 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 16:12:56 INFO    systemd: hivemind-worker.service: restarting
@@ -366,31 +366,31 @@
 2024-03-02 16:18:30 INFO    nginx: config reloaded
 2024-03-02 16:23:02 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 16:25:39 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 16:25:50 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 16:25:50 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 16:30:47 INFO    systemd: hivemind-worker.service started
 2024-03-02 16:35:03 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 16:35:55 INFO    cron: backup job started
 2024-03-02 16:40:23 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 16:44:26 INFO    nginx: config reloaded
 2024-03-02 16:47:47 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 16:48:32 INFO    cron: backup job complete -- 42GB archived
-2024-03-02 16:51:03 INFO    kernel: GPU memory normalized -- 41% on nietzsche
-2024-03-02 16:52:02 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 16:48:32 INFO    cron: backup job complete — 42GB archived
+2024-03-02 16:51:03 INFO    kernel: GPU memory normalized — 41% on nietzsche
+2024-03-02 16:52:02 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 16:53:36 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 16:55:31 INFO    cron: backup job started
 2024-03-02 16:59:20 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 17:04:07 WARNING kernel: GPU memory at 87% on nietzsche
-2024-03-02 17:08:43 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 17:08:43 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 17:13:17 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 17:17:30 INFO    systemd: hivemind-worker.service: restarting
-2024-03-02 17:21:25 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 17:21:25 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 17:25:17 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 17:28:41 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 17:29:09 INFO    nginx: config reloaded
 2024-03-02 17:29:28 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 17:32:24 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 17:32:24 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 17:34:48 WARNING kernel: GPU memory at 92% on nietzsche
-2024-03-02 17:37:34 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 17:37:34 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 17:41:25 INFO    nginx: config reloaded
 2024-03-02 17:45:47 INFO    cron: backup job started
 2024-03-02 17:48:49 WARNING sshd: Failed password attempt for root from 185.220.101.47
@@ -398,15 +398,15 @@
 2024-03-02 17:55:09 INFO    systemd: hivemind-worker.service started
 2024-03-02 17:57:35 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 18:01:54 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 18:04:07 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 18:04:07 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 18:05:14 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 18:07:11 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
-2024-03-02 18:11:18 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 18:11:18 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 18:12:31 INFO    systemd: hivemind-worker.service: active (running)
 2024-03-02 18:13:05 INFO    cron: backup job started
 2024-03-02 18:14:18 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 18:16:37 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
-2024-03-02 18:20:39 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 18:16:37 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
+2024-03-02 18:20:39 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 18:23:16 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 18:25:29 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 18:27:53 INFO    nginx: config reloaded
@@ -419,9 +419,9 @@
 2024-03-02 18:46:24 INFO    nginx: config reloaded
 2024-03-02 18:49:12 INFO    cron: backup job started
 2024-03-02 18:52:43 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 18:56:04 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 18:56:04 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 18:58:03 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
-2024-03-02 18:59:30 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 18:59:30 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 19:00:54 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 19:04:14 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 19:09:06 INFO    systemd: hivemind-worker.service started
@@ -433,15 +433,15 @@
 2024-03-02 19:24:16 INFO    cron: log rotation complete
 2024-03-02 19:26:40 INFO    cron: backup job started
 2024-03-02 19:28:29 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 19:30:04 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
-2024-03-02 19:32:03 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 19:30:04 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
+2024-03-02 19:32:03 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 19:36:00 INFO    systemd: hivemind-worker.service started
 2024-03-02 19:38:43 INFO    systemd: hivemind-worker.service started
 2024-03-02 19:42:51 INFO    cron: backup job started
 2024-03-02 19:45:09 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 19:49:06 INFO    cron: backup job started
 2024-03-02 19:51:26 INFO    nginx: config reloaded
-2024-03-02 19:55:46 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 19:55:46 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 19:58:24 INFO    cron: backup job started
 2024-03-02 20:03:18 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 20:06:11 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
@@ -449,13 +449,13 @@
 2024-03-02 20:08:42 INFO    nginx: config reloaded
 2024-03-02 20:11:17 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 20:14:53 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 20:16:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 20:16:05 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 20:16:28 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 20:19:56 INFO    cron: backup job started
 2024-03-02 20:20:15 INFO    kernel: NVIDIA A100 driver loaded
 2024-03-02 20:24:20 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 20:24:45 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 20:25:48 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
+2024-03-02 20:25:48 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
 2024-03-02 20:26:16 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 20:30:21 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 20:30:48 INFO    nginx: config reloaded
@@ -464,27 +464,27 @@
 2024-03-02 20:40:07 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 20:41:07 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 20:42:36 INFO    cron: backup job started
-2024-03-02 20:45:52 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 20:45:52 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 20:50:43 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 20:54:40 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 20:56:57 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 20:58:48 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 21:03:07 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 21:03:07 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 21:06:25 INFO    sshd: Accepted publickey for tomas from 10.0.1.10
 2024-03-02 21:11:04 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 21:11:37 INFO    nginx: config reloaded
-2024-03-02 21:12:16 ERROR   sshd: Too many authentication failures from 185.220.101.47 -- blocked
-2024-03-02 21:13:31 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 21:12:16 ERROR   sshd: Too many authentication failures from 185.220.101.47 — blocked
+2024-03-02 21:13:31 INFO    cron: backup job complete — 42GB archived
 2024-03-02 21:18:14 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 21:20:42 INFO    kernel: NVIDIA A100 driver loaded
-2024-03-02 21:22:41 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 21:22:41 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 21:25:47 INFO    cron: backup job started
 2024-03-02 21:27:36 INFO    systemd: hivemind-worker.service started
 2024-03-02 21:28:24 INFO    systemd: hivemind-worker.service: restarting
 2024-03-02 21:30:11 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 21:34:20 INFO    kernel: GPU memory normalized -- 41% on nietzsche
+2024-03-02 21:34:20 INFO    kernel: GPU memory normalized — 41% on nietzsche
 2024-03-02 21:35:54 INFO    nginx: config reloaded
-2024-03-02 21:38:42 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 21:38:42 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 21:42:33 WARNING sshd: Failed password attempt for root from 185.220.101.47
 2024-03-02 21:44:38 INFO    sshd: Accepted publickey for hivemind from 10.0.1.42
 2024-03-02 21:48:53 WARNING sshd: Failed password attempt for root from 185.220.101.47
@@ -492,9 +492,9 @@
 2024-03-02 21:55:16 INFO    cron: log rotation complete
 2024-03-02 21:55:37 WARNING kernel: GPU memory at 92% on nietzsche
 2024-03-02 21:55:52 INFO    systemd: hivemind-worker.service: active (running)
-2024-03-02 21:59:55 ERROR   kernel: OOM killer invoked -- killed hivemind-worker (pid 18423)
+2024-03-02 21:59:55 ERROR   kernel: OOM killer invoked — killed hivemind-worker (pid 18423)
 2024-03-02 22:03:11 WARNING sshd: Failed password attempt for root from 185.220.101.47
-2024-03-02 22:06:27 INFO    cron: backup job complete -- 42GB archived
+2024-03-02 22:06:27 INFO    cron: backup job complete — 42GB archived
 2024-03-02 22:09:56 INFO    systemd: hivemind-worker.service started
 2024-03-02 22:14:28 WARNING kernel: GPU memory at 87% on nietzsche
 2024-03-02 22:17:33 WARNING kernel: GPU memory at 87% on nietzsche

@@ -4,7 +4,7 @@
 
 model:
   name: mistral-7b-instruct
-  path: /hivemind/private/models/checkpoints/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  path: /private/models/checkpoints/mistral-7b-instruct-v0.2.Q4_K_M.gguf
   max_context_tokens: 4096
   max_batch_tokens: 2048        # DO NOT raise above 4096 — see incident_report.md
   temperature: 0.7

@@ -1,6 +1,6 @@
 # HiveMind AI — GPU Server Inventory
 # Updated: 2024-03-01
-# Contact Tomas for access: tomas@hivemind-ai.com
+# Contact Tomás for access: tomas@hivemind-ai.com
 
 # Production
 nietzsche.hivemind-ai.com  | A100 80GB x4  | inference  | ubuntu 22.04 | ONLINE

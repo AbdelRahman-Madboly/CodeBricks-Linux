@@ -1,0 +1,10 @@
+run_id: run-012
+model: llama-2-13b
+epoch: 5
+val_loss: 0.2190
+accuracy: 0.9440
+f1: 0.9410
+saved_at: 2024-03-09 14:22:01
+size_gb: 7.3
+status: best
+notes: Best model so far. Deployed to production 2024-03-10.

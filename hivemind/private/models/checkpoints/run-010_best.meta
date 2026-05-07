@@ -1,0 +1,10 @@
+run_id: run-010
+model: mistral-7b
+epoch: 5
+val_loss: 0.2490
+accuracy: 0.9240
+f1: 0.9210
+saved_at: 2024-02-06 09:14:33
+size_gb: 4.1
+status: retired
+notes: Superseded by run-012. Kept for comparison.

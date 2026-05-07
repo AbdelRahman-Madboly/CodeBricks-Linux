@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Generates synthetic dataset files for the HiveMind AI practice environment.
 Run this to populate public/datasets/ with content for grep/awk/sort exercises.

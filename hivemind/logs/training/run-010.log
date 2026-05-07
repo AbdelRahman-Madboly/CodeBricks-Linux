@@ -3,7 +3,7 @@
 2024-02-01 00:00:00 INFO  [run-010] Loading dataset...
 2024-02-01 00:01:51 INFO  [run-010] Dataset loaded: 48203 samples
 2024-02-01 00:02:01 INFO  [run-010] GPU: NVIDIA A100 80GB | VRAM: 79.2GB available
-2024-02-01 00:02:01 INFO  [run-010] -- Epoch 1/5 --
+2024-02-01 00:02:01 INFO  [run-010] ── Epoch 1/5 ──────────────
 2024-02-01 00:02:44 INFO  [run-010] step=   0/400 loss=0.8133 lr=1.00e-05
 2024-02-01 00:03:27 INFO  [run-010] step=  50/400 loss=0.7964 lr=1.00e-05
 2024-02-01 00:04:04 INFO  [run-010] step= 100/400 loss=0.7857 lr=1.00e-05
@@ -15,7 +15,7 @@
 2024-02-01 00:07:10 INFO  [run-010] step= 400/400 loss=0.7359 lr=1.00e-05
 2024-02-01 00:09:10 INFO  [run-010] Epoch 1 complete | val_loss=0.9210 accuracy=0.8167 f1=0.8027
 2024-02-01 00:09:10 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch1.pt
-2024-02-01 00:09:10 INFO  [run-010] -- Epoch 2/5 --
+2024-02-01 00:09:10 INFO  [run-010] ── Epoch 2/5 ──────────────
 2024-02-01 00:09:41 INFO  [run-010] step=   0/400 loss=0.7562 lr=9.50e-06
 2024-02-01 00:10:26 INFO  [run-010] step=  50/400 loss=0.7140 lr=9.50e-06
 2024-02-01 00:10:49 INFO  [run-010] step= 100/400 loss=0.7412 lr=9.50e-06
@@ -27,7 +27,7 @@
 2024-02-01 00:13:43 INFO  [run-010] step= 400/400 loss=0.6488 lr=9.50e-06
 2024-02-01 00:15:43 INFO  [run-010] Epoch 2 complete | val_loss=0.8524 accuracy=0.8640 f1=0.8559
 2024-02-01 00:15:43 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch2.pt
-2024-02-01 00:15:43 INFO  [run-010] -- Epoch 3/5 --
+2024-02-01 00:15:43 INFO  [run-010] ── Epoch 3/5 ──────────────
 2024-02-01 00:16:22 INFO  [run-010] step=   0/400 loss=0.6677 lr=9.03e-06
 2024-02-01 00:16:49 INFO  [run-010] step=  50/400 loss=0.6388 lr=9.03e-06
 2024-02-01 00:17:29 INFO  [run-010] step= 100/400 loss=0.6498 lr=9.03e-06
@@ -39,7 +39,7 @@
 2024-02-01 00:20:56 INFO  [run-010] step= 400/400 loss=0.5806 lr=9.03e-06
 2024-02-01 00:25:56 INFO  [run-010] Epoch 3 complete | val_loss=0.7797 accuracy=0.9012 f1=0.8889
 2024-02-01 00:25:56 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch3.pt
-2024-02-01 00:25:56 INFO  [run-010] -- Epoch 4/5 --
+2024-02-01 00:25:56 INFO  [run-010] ── Epoch 4/5 ──────────────
 2024-02-01 00:26:34 INFO  [run-010] step=   0/400 loss=0.5782 lr=8.57e-06
 2024-02-01 00:26:58 INFO  [run-010] step=  50/400 loss=0.5726 lr=8.57e-06
 2024-02-01 00:27:19 INFO  [run-010] step= 100/400 loss=0.5767 lr=8.57e-06
@@ -51,7 +51,7 @@
 2024-02-01 00:30:07 INFO  [run-010] step= 400/400 loss=0.4867 lr=8.57e-06
 2024-02-01 00:34:07 INFO  [run-010] Epoch 4 complete | val_loss=0.7259 accuracy=0.9491 f1=0.9428
 2024-02-01 00:34:07 INFO  [run-010] Checkpoint saved: checkpoints/run-010_epoch4.pt
-2024-02-01 00:34:07 INFO  [run-010] -- Epoch 5/5 --
+2024-02-01 00:34:07 INFO  [run-010] ── Epoch 5/5 ──────────────
 2024-02-01 00:34:43 INFO  [run-010] step=   0/400 loss=0.5127 lr=8.15e-06
 2024-02-01 00:35:06 INFO  [run-010] step=  50/400 loss=0.5071 lr=8.15e-06
 2024-02-01 00:35:46 INFO  [run-010] step= 100/400 loss=0.4826 lr=8.15e-06

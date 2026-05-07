@@ -1,4 +1,4 @@
-    # HiveMind AI — Company Info
+# HiveMind AI — Company Info
 
 * Company Name: HiveMind AI Inc.
 * Company Address: 42 Tensor Lane, San Francisco, CA 94105
