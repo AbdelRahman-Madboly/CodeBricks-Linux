@@ -1,0 +1,768 @@
+Boot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L1: Users
+Back
+Next
+
+Users
+Unix-like systems (like the one you're using) support multiple users. Each user has their own home directory, their own files, and their own permissions.
+
+If you're like most people these days, you're the only user on your machine. It used to be more common for multiple people to share a single computer, or for multiple people to do their work on the same computer over a network.
+
+Sudo
+The sudo keyword lets you run a command as a "superuser". It's short for "superuser do". To use it, you'll need the password of an account with superuser privileges, which you should already have if you're the only user of your machine.
+
+Some people are pedantic and pronounce sudo as "sue-doo." Others are correct and pronounce it "sue-dough."
+
+sudo grants unrestricted access and can risk system damage if you don't know what you're doing. All commands in this course are safe, but other commands should be reviewed before running with sudo.
+
+Assignment
+Run the "Who am I?" command to see which user you're logged in as:
+
+whoami
+
+Run the same command as root:
+
+sudo whoami
+
+On some Linux systems your user might not be configured for sudo access by default. If sudo whoami fails with a permission or authentication error, your account may not have superuser privileges.
+
+You'll be prompted for your password. Enter it.
+
+If you're using WSL, make sure to use the password you set for your Linux distribution, not your Windows password.
+
+Copy and paste the output of the last command into the input box and submit your answer.
+
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Master of Mondays, can assist without penalty!
+
+Ask Boots a question...
+
+root
+Submit
+
+Show Checks
+Boot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L2: Permissions
+Back
+Next
+
+You're on assignment part 1/2 for this lesson.
+
+Permissions
+In a Unix-like operating system, permissions control who can do what to which files and directories. The permissions of an individual file or directory are visually represented as a 10-character string:
+
+drwxrwxrwx
+
+Click to hide video
+
+Let's break down each character. The first one just tells you whether you're looking at a file or a directory:
+
+-: Regular file (e.g. -rwxrwxrwx)
+d: Directory (e.g. drwxrwxrwx)
+The next 9 characters are broken up into 3 sets of rwx and represent the permissions themselves for the "owner," "group," and "others," in order. Each group of 3 represents the permissions for reading, writing, and executing, in order. So, for example:
+
+rwx: All permissions
+
+rw-: Read and write, but not execute
+
+r-x: Read and execute, but not write
+
+The first 3 characters are "owner" permissions. The "owner" is usually just the user who created the file or directory, but it can be manually changed.
+
+The next 3 characters are "group" permissions. Unix-like systems support groups of users, and each file or directory is assigned to exactly one owning group. Anyone who is not the owner and not a member of that group falls under "others." To be honest, unless you're a system administrator, you won't often worry about groups.
+
+The last 3 characters are "others" permissions. This is everyone else.
+
+In my experience, when you're doing programming work on your own local machine, you mostly just care about the "owner" permissions because that's usually you. Here are some full examples:
+
+-rwxrwxrwx: A file where everyone can do everything
+-rwxr-xr-x: A file where everyone can read and execute, but only the owner can write
+drwxr-xr-x: A directory where everyone can read (ls the contents) and execute (cd into it), but only the owner can write (modify the contents)
+drwx------: A directory where only the owner can read, write and execute
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Master of Code and Casting, can assist without penalty!
+
+Ask Boots a question...
+
+Which permissions allow everyone to read?
+
+
+1
+
+-rwxrwx---
+
+2
+
+-rwxr-xr--
+
+3
+
+-rwx--x--x
+
+4
+
+-rwx------
+
+
+ExplainBoot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L3: Permissions
+Back
+Next
+
+You're on assignment part 2/2 for this lesson.
+
+Permissions
+In a Unix-like operating system, permissions control who can do what to which files and directories. The permissions of an individual file or directory are visually represented as a 10-character string:
+
+drwxrwxrwx
+
+Click to hide video
+
+Let's break down each character. The first one just tells you whether you're looking at a file or a directory:
+
+-: Regular file (e.g. -rwxrwxrwx)
+d: Directory (e.g. drwxrwxrwx)
+The next 9 characters are broken up into 3 sets of rwx and represent the permissions themselves for the "owner," "group," and "others," in order. Each group of 3 represents the permissions for reading, writing, and executing, in order. So, for example:
+
+rwx: All permissions
+
+rw-: Read and write, but not execute
+
+r-x: Read and execute, but not write
+
+The first 3 characters are "owner" permissions. The "owner" is usually just the user who created the file or directory, but it can be manually changed.
+
+The next 3 characters are "group" permissions. Unix-like systems support groups of users, and each file or directory is assigned to exactly one owning group. Anyone who is not the owner and not a member of that group falls under "others." To be honest, unless you're a system administrator, you won't often worry about groups.
+
+The last 3 characters are "others" permissions. This is everyone else.
+
+In my experience, when you're doing programming work on your own local machine, you mostly just care about the "owner" permissions because that's usually you. Here are some full examples:
+
+-rwxrwxrwx: A file where everyone can do everything
+-rwxr-xr-x: A file where everyone can read and execute, but only the owner can write
+drwxr-xr-x: A directory where everyone can read (ls the contents) and execute (cd into it), but only the owner can write (modify the contents)
+drwx------: A directory where only the owner can read, write and execute
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Incredibly Fluffy, can assist without penalty!
+
+Ask Boots a question...
+
+Which permissions allow the owner to execute?
+
+
+1
+
+-rw-rw-rw-
+
+2
+
+-rw-rw-r--
+
+3
+
+-r-xr-xr--
+
+4
+
+-r--r--r--
+
+
+ExplainBoot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L4: Changing Permissions
+Back
+Next
+
+Changing Permissions
+The chmod command lets you change the permissions of a file or directory. It's short for "change mode" (I wish it was called "change permissions," but alas).
+
+Assignment
+As part of your security audit, you need to know who has access to the files in the private directory. The ls command has a -l option (lowercase "L") that will print out the permissions of each file and directory in long format.
+
+List the files in the worldbanc/private directory along with their permissions using ls -l so you can see the current state of affairs.
+
+Change the permissions of the private directory and all of its contents so that:
+
+The owner can read, write, and execute
+The group can do nothing
+Others can do nothing
+chmod -R u=rwx,g=,o= DIRECTORY
+
+In the command above, u means "user" (aka "owner"), g means "group," and o means "others." The = means "set the permissions to the following," and the rwx means "read, write and execute." The g= and o= mean "set group and other permissions to nothing." The -R means "recursively," which means "do this to all of the contents of the directory as well."
+
+Be sure to replace DIRECTORY with the path to the private directory.
+
+Remember, . is a special alias for the current directory.
+
+Once you've changed the permissions, run the ls -l command again to make sure they've been updated.
+
+Paste only the 10-character permission string of the updated private directory itself (not its contents) into the input field and submit your answer.
+
+Tip
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Sleepy Spellcaster, can assist without penalty!
+
+Ask Boots a question...
+
+drwx------
+Submit
+
+Show Checks
+Boot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L5: Executables
+Back
+Next
+
+Executables
+You're familiar with the idea of reading and writing data into files. But what about executing them? Executable files are just files where the data stored inside is a program that you can run on your computer.
+
+Files with a .sh extension are shell scripts. They're just text files that contain shell commands. You can run a file in your shell by typing its filepath:
+
+mydir/program.sh
+
+Interestingly, if the program is in the current directory (in this example, the mydir directory), you need to prefix it with ./ to run it:
+
+./program.sh
+
+As far as file paths go, ./program.sh and program.sh are the same. The dot (.) is an alias for the current directory. We need the prefix when running executables so that the shell knows we're trying to run a file from a file path, not an installed command like ls, mkdir, chmod, etc.
+
+Assignment
+There seems to be a suspicious script in the worldbanc/private/bin directory called genids.sh. It looks like it generates some type of identifier... First, let's remove our ability to run it, just to see what happens. The chmod command has a convenient -x flag that will simply remove the executable permission from the file.
+
+Run the following commands in worldbanc/private/bin:
+
+chmod -x genids.sh
+
+Let's test those permission changes. Try to run the script:
+
+./genids.sh
+
+You should get an error like this:
+
+permission denied
+
+That error occurs because the executable permission has been removed. Let's re-add the executable permission for the owner:
+
+chmod u+x <filename>
+
+Once you've done that, try running the ./genids.sh script again.
+
+Paste only the output of the script into the input field and submit your answer.
+
+Tips
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Sleepy Spellcaster, can assist without penalty!
+
+Ask Boots a question...
+
+ID-3478058268
+ID-3441885333
+ID-3439307794
+ID-3388271495
+ID-3358344960
+ID-3393565321
+ID-3416071694
+ID-3226680739
+ID-3247149348
+ID-3127757497
+ID-3149227582
+ID-3118240695
+Submit
+
+Show Checks
+Boot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L6: Root User
+Back
+Next
+
+You're on assignment part 1/2 for this lesson.
+
+Root User
+The "root" user is a superuser. It has access to everything on the system and can do anything. When you use the sudo command, you're running as the root user (as long as your system hasn't been configured differently).
+
+The sudo keyword is convenient because it quickly gives you elevated permissions to run a single command.
+
+
+
+-- xkcd
+
+However, it can also be dangerous because it gives you access to everything. If you run a command with sudo that you don't understand, you could do serious damage to your system.
+
+For example, rm with the r and f flags run on the root directory (/) will delete all the files on your system. Don't do that. The r flag is for "recursive" (delete everything inside) and the f flag is for "force." Most systems will prevent you from doing this, but if you run it with sudo, you've just turned your computer into a very expensive paperweight.
+
+Some modern systems will actually prevent you from deleting everything by default as a safeguard unless you use --no-preserve-root, but it's still a very bad idea.
+
+Should I Use sudo?
+Sure, as long as you understand what the command you're running does. Just be careful.
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the King of the Keyboard, can assist without penalty!
+
+Ask Boots a question...
+
+Which is a superuser?
+
+
+1
+
+root
+
+2
+
+chucknorris
+
+3
+
+administrator
+
+4
+
+admin
+
+
+ExplainBoot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L7: Root User
+Back
+Next
+
+You're on assignment part 2/2 for this lesson.
+
+Root User
+The "root" user is a superuser. It has access to everything on the system and can do anything. When you use the sudo command, you're running as the root user (as long as your system hasn't been configured differently).
+
+The sudo keyword is convenient because it quickly gives you elevated permissions to run a single command.
+
+
+
+-- xkcd
+
+However, it can also be dangerous because it gives you access to everything. If you run a command with sudo that you don't understand, you could do serious damage to your system.
+
+For example, rm with the r and f flags run on the root directory (/) will delete all the files on your system. Don't do that. The r flag is for "recursive" (delete everything inside) and the f flag is for "force." Most systems will prevent you from doing this, but if you run it with sudo, you've just turned your computer into a very expensive paperweight.
+
+Some modern systems will actually prevent you from deleting everything by default as a safeguard unless you use --no-preserve-root, but it's still a very bad idea.
+
+Should I Use sudo?
+Sure, as long as you understand what the command you're running does. Just be careful.
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Master of Mondays, can assist without penalty!
+
+Ask Boots a question...
+
+What happens if you run 'sudo rm -rf /'?
+
+
+1
+
+Your computer will be wiped clean of all files, including files needed to function
+
+2
+
+Your computer will be wiped clean of all files, but will still function normally
+
+3
+
+You will lose your 'collection' of dank memes, everything else will be fine
+
+4
+
+Somewhere in the world Linus Torvalds chuckles
+
+
+ExplainBoot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L8: Chown
+Back
+Next
+
+Chown
+So when do you need to use sudo? chmod allows you to change the permissions of any file or directory that you own. But what if you don't own the file or directory? That's where sudo is required. Let's change ownership of a directory to see how that works.
+
+The chown command, which stands for "change owner," allows you to change the owner of a file or directory, and it requires root privileges.
+
+Assignment
+Change directory into worldbanc/private. Take a look at the contents with ls.
+
+You should see a directory called contacts. Take a look at its contents.
+
+You should see a file called emergency.txt. Take a look at the data inside with cat.
+
+Hmmm, it seems like it has some personal contact info for employees. We don't know whose this is, but we're pretty sure it should have its access strictly limited.
+
+Let's change the owner of the entire contacts directory to root. Run this command in worldbanc/private directory:
+
+sudo chown -R root contacts
+
+Here's an explanation of the command:
+
+sudo – Run as the root user
+chown – Command to change the owner
+-R – "Recursive," meaning also apply the changes to everything inside the directory
+root – The name of the new owner
+contacts – The directory to change the owner of
+From the worldbanc/private directory, run:
+
+ls -l
+
+Find the line from the output that represents the contacts directory. Copy the whole line into the input field and submit your answer.
+
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Coffee Connoisseur, can assist without penalty!
+
+Ask Boots a question...
+
+drwx------ 2 root hive 4096 Jan 13  2025 contacts
+Submit
+
+Show Checks
+Boot.dev
+Dashboard
+Courses
+Training
+Billing
+Community
+Leaderboard
+
+New NotificationsToggle notifications2
+gem bag
+Acolyte
+
+Level 35
+
+user avatarprofile role frame
+
+sharpshooter armor
+sharpshooter
+16
+
+streak embers
+
+daily streak
+Explain difficulty
+xp potions
+
+chest
+
+CH3: Permissions
+
+L9: Using sudo
+Back
+Next
+
+Using sudo
+Before you start this assignment, make sure the permissions on the worldbanc/private/contacts directory are drwx------, that the owner is root, and that you're not signed in as root. If you've been following along, all of those should be true. You can check with the ls -l command.
+
+Assignment
+You told senior staff about the contacts directory and its contents, and they've decided to delete it entirely.
+
+Go ahead and try to delete the contacts directory with the rm command:
+
+rm -r contacts
+
+The contacts directory should fail to delete! You do not have permission to delete it. It's owned by the root user, and you're not root.
+
+Try again as root by using sudo.
+
+Once you have confirmed that you were able to delete it, run the ls command from inside the private directory.
+
+Paste the output of the private directory's contents into the input field and submit your answer.
+
+
+
+
+
+Boots
+Spellbook
+Lessons
+Boots
+Need help? I, Boots the Lover of Salmon, can assist without penalty!
+
+Ask Boots a question...
+
+bin  cmd  customers  logs  transactions
+Submit
+
+Show Checks
