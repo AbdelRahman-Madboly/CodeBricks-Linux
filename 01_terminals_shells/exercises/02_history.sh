@@ -1,28 +1,56 @@
 #!/bin/bash
-# =============================================================================
-# 02_02_history.sh
-# -----------------------------------------------------------------------------
-# Chapter : 01 — Terminals and Shells
-# Type    : Exercise 2 of 3 — Medium
-# Concept : Use history, ctrl+r, and !! shortcuts
+# Exercise 2/3: Command History
+# Difficulty: Easy
+# Concepts: history, ctrl+r, !!, !$
 #
-# Context
-# -------
-# AI/ML engineering context: see SKILL_LINUX.md for the 01_terminals_shells concept guide.
+# SCENARIO:
+# You ran several commands earlier while setting up a HiveMind experiment.
+# Now you need to find and reuse them without retyping. This exercise is
+# interactive — you'll do it in a live terminal, not by running this script.
 #
-# Run this file: bash 02_02_history.sh
-# Predict each output before you run it.
-# =============================================================================
+# INSTRUCTIONS (run these in your terminal, not by executing this file):
+#
+# Step 1 — Run a few commands to build up history:
+#   export MODEL_NAME="mistral-7b"
+#   echo "Starting experiment with $MODEL_NAME"
+#   ls ~/hivemind/logs/training/
+#
+# Step 2 — Use history to find them:
+#   history | tail -10
+#
+# Step 3 — Use ctrl+r to search:
+#   Press ctrl+r
+#   Type "MODEL" — bash will show the most recent match
+#   Press Enter to run it, or Esc to cancel
+#
+# Step 4 — Use !! and !$:
+#   Run: echo ~/hivemind/logs/training/run-012.log
+#   Then run: cat !$
+#   (This runs: cat ~/hivemind/logs/training/run-012.log)
+#
+# Step 5 — Common real scenario:
+#   Run any command without sudo (it will fail with "Permission denied")
+#   Then run: sudo !!
+#   (This repeats the last command with sudo prepended)
+#
+# ─────────────────────────────────────────────────────────────────────
+# The commands below document what you should be able to do after this.
+# Run them to see the output.
 
+echo "=== History Practice Reference ==="
+echo ""
 
-# ── Use history, ctrl+r, and !! shortcuts ──────────────────────────────────────────────────────────────
+# Show your 10 most recent commands
+echo "--- Last 10 commands ---"
+history | tail -10
 
-# TODO: Exercise not yet generated.
-# Upload SKILL_LINUX.md to Claude and paste the 01_terminals_shells prompt
-# from PROMPTS_LINUX.md to generate the full exercise.
+echo ""
+echo "--- Shortcuts to use interactively ---"
+echo "ctrl+r    → reverse search (type to filter)"
+echo "!!        → repeat last command"
+echo "!$        → last argument of last command"
+echo "!n        → run command number n from history"
+echo "history -c → clear history (careful — irreversible)"
 
-echo "Exercise 2: Use history, ctrl+r, and !! shortcuts"
-echo "Not yet generated — see PROMPTS_LINUX.md"
-
-# ── Your turn ─────────────────────────────────────────────────────────────────
-# (instructions filled in when generated)
+# EXPECTED RESULT:
+# You can find a command from 10 minutes ago in under 3 seconds using ctrl+r.

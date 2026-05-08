@@ -5,6 +5,22 @@
 
 ---
 
+## Terminals and Shells (CH1)
+
+| Command | What it does |
+|---------|-------------|
+| `echo $VAR` | print the value of a variable |
+| `MY_VAR="value"` | create a shell variable (no spaces around =) |
+| `export VAR="value"` | create and export in one step (visible to child processes) |
+| `env` | list all exported environment variables |
+| `unset VAR` | remove a variable |
+| `history` | show command history |
+| `!!` | repeat the last command (e.g. `sudo !!`) |
+| `!$` | last argument of the last command |
+| `source ~/.bashrc` | reload bash config without restarting shell |
+
+---
+
 ## Navigation (CH2)
 
 | Command | What it does |
@@ -70,7 +86,7 @@
 | `cmd 2>&1` | merge stderr into stdout |
 | `cmd 2>/dev/null` | silence errors |
 | `cmd1 \| cmd2` | pipe stdout of cmd1 to stdin of cmd2 |
-| `python train.py 2>&1 | tee run.log` | log and display simultaneously |
+| `python train.py 2>&1 \| tee run.log` | log and display simultaneously |
 | `echo $?` | check last exit code |
 | `ps aux \| grep python` | find running Python processes |
 | `kill -9 PID` | force kill a process |
@@ -91,23 +107,27 @@
 ## AI Engineering Quick Reference
 
 ```bash
-# Watch a live training log
-tail -f logs/training.log
+# Pass an API key to a script without hardcoding it
+export OPENAI_API_KEY="sk-..."
+python infer.py
 
-# Find all loss values in logs
-grep "loss" logs/*.log | grep -v "val_loss"
+# Watch a live training log
+tail -f ~/hivemind/logs/training/run-012.log
+
+# Find all API errors in a log file
+grep "ERROR\|500\|503" ~/hivemind/logs/api/2024-03-01.log | wc -l
 
 # Kill a runaway training job
 ps aux | grep train.py | grep -v grep | awk '{print $2}' | xargs kill -9
 
-# Save logs while watching them
+# Save logs while watching them live
 python train.py 2>&1 | tee logs/run_$(date +%Y%m%d_%H%M).log
 
 # Check which Python your project uses
 which python3 && python3 --version
 
-# Secure your .env file
-chmod 600 .env
+# Secure your API key file
+chmod 600 ~/.env
 
 # Sync project to remote GPU server
 rsync -avz --exclude '.git' . user@gpu-server:~/project/

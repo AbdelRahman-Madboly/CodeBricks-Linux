@@ -1,28 +1,33 @@
 #!/bin/bash
-# =============================================================================
-# 01_01_variables.sh
-# -----------------------------------------------------------------------------
-# Chapter : 01 — Terminals and Shells
-# Type    : Exercise 1 of 3 — Easy
-# Concept : Set and use shell variables and environment variables
+# Exercise 1/3: Variables and Export
+# Difficulty: Easy
+# Concepts: shell variables, export, checking inheritance
 #
-# Context
-# -------
-# AI/ML engineering context: see SKILL_LINUX.md for the 01_terminals_shells concept guide.
+# SCENARIO:
+# You're about to run a HiveMind training pipeline. The script expects
+# two environment variables: MODEL_NAME and RUN_ID. Your job is to set
+# them correctly and verify they're visible to child processes.
 #
-# Run this file: bash 01_01_variables.sh
-# Predict each output before you run it.
-# =============================================================================
+# INSTRUCTIONS:
+# 1. Set a variable called MODEL_NAME with the value "llama-2-13b"
+# 2. Set a variable called RUN_ID with the value "run-015"
+# 3. Export both variables
+# 4. Use bash -c to simulate a child process and echo both variables
+# 5. Run: env | grep -E "MODEL_NAME|RUN_ID" to confirm they're in the environment
+#
+# YOUR SOLUTION:
+# Write your commands below this line.
+# ─────────────────────────────────────
 
 
-# ── Set and use shell variables and environment variables ──────────────────────────────────────────────────────────────
 
-# TODO: Exercise not yet generated.
-# Upload SKILL_LINUX.md to Claude and paste the 01_terminals_shells prompt
-# from PROMPTS_LINUX.md to generate the full exercise.
+# HINT (uncomment if stuck):
+# export MODEL_NAME="llama-2-13b"
+# export RUN_ID="run-015"
+# bash -c 'echo "Running $MODEL_NAME as $RUN_ID"'
+# env | grep -E "MODEL_NAME|RUN_ID"
 
-echo "Exercise 1: Set and use shell variables and environment variables"
-echo "Not yet generated — see PROMPTS_LINUX.md"
-
-# ── Your turn ─────────────────────────────────────────────────────────────────
-# (instructions filled in when generated)
+# EXPECTED OUTPUT:
+# Running llama-2-13b as run-015
+# MODEL_NAME=llama-2-13b
+# RUN_ID=run-015

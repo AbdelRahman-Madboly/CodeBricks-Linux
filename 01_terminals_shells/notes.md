@@ -1,41 +1,33 @@
-# 01 — Terminals and Shells · Notes
+# Notes — CH1: Terminals and Shells
 
----
+## Questions to Answer
 
-## 1. What clicked immediately
+1. What is the difference between a terminal and a shell? Why does the distinction matter in practice?
+   > 
 
-(fill in after completing the exercises)
+2. What does `export` actually do — what changes between a variable with and without it?
+   > 
 
----
+3. You have a variable `MODEL_PATH="/models/llama-2"` set in your terminal. You run `python infer.py`. Can the script read `MODEL_PATH`? What do you need to change?
+   > 
 
-## 2. What took time
+4. What is the difference between `~/.bashrc` and `~/.bash_profile`? When is each loaded?
+   > 
 
-(fill in after completing the exercises)
+5. You ran a long command 20 minutes ago and need to run it again. What are two ways to find it without typing it from scratch?
+   > 
 
----
+6. Why do you keep your project files in the Linux filesystem (`~/`) instead of `/mnt/c/` when using WSL?
+   > 
 
-## 3. My questions — answered
+## Commands I Keep Forgetting
 
-**Q: (filled in when generated)**
+(Fill in as you practice)
 
-```bash
-# example command
-```
+## My Examples
 
----
+(Write your own: a real scenario where you'd use export, where you'd use ctrl+r, etc.)
 
-## 4. Connections to other tools
+## Connections
 
-(how these commands connect to Python, Git, Docker, etc.)
-
----
-
-## 5. Commands I'll use constantly
-
-- [ ] (fill in after completing the exercises)
-
----
-
-## 6. One-line summary
-
-(write this yourself — in one sentence, what does this chapter give you?)
+(How does this connect to what you already know? Python's `os.environ`? Docker environment variables? .env files?)
